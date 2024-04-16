@@ -16,21 +16,34 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Libraries/Tools Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Language:
 
-## Learn More
+- [TypeScript](https://www.typescriptlang.org/) JavaScript superset for static type-checking.
 
-To learn more about Next.js, take a look at the following resources:
+Framework:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org/) React framework for building web applications with server-side rendering.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Styling:
 
-## Deploy on Vercel
+- [Tailwindcss](https://tailwindcss.com/) for styling.
+- [NextUI](https://nextui.org/) for UI components.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Authentication:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [NextAuth / AuthJS](https://next-auth.js.org/) for user authentication.
+
+Database and ORM:
+
+- [SQLite](https://www.sqlite.org/index.html) for database.
+- [prisma](https://www.prisma.io/) for database access.
+
+Form Validation:
+
+- [zod](https://zod.dev) for schema validation.
+
+Font:
+
+- [next/font](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
