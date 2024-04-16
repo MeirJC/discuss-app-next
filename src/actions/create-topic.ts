@@ -1,5 +1,8 @@
 "use server";
 
-export async function createTopic() {
-  // TODO: revalidate the homepage
+export async function createTopic(formData: FormData) {
+  const name = formData.get("name");
+  const description = formData.get("description");
+
+  console.log(`name: ${name} \ndescription: ${description}`);
 }
