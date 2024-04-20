@@ -12,7 +12,7 @@ import {
 import * as actions from "@/actions";
 
 export default function TopicCreateForm() {
-  const [formState, action] = useFormState(actions.createTopic, 5);
+  const [formState, action] = useFormState(actions.createTopic, { errors: {} });
 
   return (
     <Popover placement="left">
