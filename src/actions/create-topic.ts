@@ -7,6 +7,7 @@ import { redirect } from "next/navigation";
 import { db } from "@/db";
 import paths from "@/paths";
 import { revalidatePath } from "next/cache";
+
 const createTopicSchema = z.object({
   name: z
     .string()
@@ -39,6 +40,7 @@ export async function createTopic(
       errors: result.error.flatten().fieldErrors,
     };
   } else {
+    // TODO - Remove later
     console.log(`result: ${JSON.stringify(result)}`);
   }
 
